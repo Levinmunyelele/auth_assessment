@@ -1,4 +1,4 @@
-# Full-Stack Authentication Assessment - Nuvion Technologies
+# Full-Stack Authentication Assessment
 
 ### Tech Stack
 * **Backend:** Python (Flask)
@@ -34,4 +34,5 @@ If given more time, I would implement:
 * **Email Verification:** To ensure valid user registration.
 * **Rate Limiting:** To protect the login endpoint against brute-force attacks.
 * **CSRF Protection:** Implementing Flask-WTF to protect all forms against Cross-Site Request Forgery attacks.
+
 * **Environment Variables:** Moving the SECRET_KEY and database URI to a .env file to ensure no sensitive credentials remain in the source code.
