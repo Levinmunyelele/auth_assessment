@@ -9,17 +9,19 @@
 ### How to Run Locally 
 #### For WSL/Linux/macOS
 1. **Navigate to project folder:** `cd auth_assessment`
-2. **Activate Virtual Environment:** `source venv/bin/activate`
-3. **Install Dependencies:** `pip install Flask Flask-SQLAlchemy Flask-Login`
-4. **Run Application:** `python3 app.py`
-5. **Access:** Open `http://127.0.0.1:5000` in your browser.
+2. **Create Virtual Environment:** python3 -m venv venv
+3. **Activate Virtual Environment:** `source venv/bin/activate`
+4. **Install Dependencies:** `pip install Flask Flask-SQLAlchemy Flask-Login`
+5. **Run Application:** `python3 app.py`
+6. **Access:** Open `http://127.0.0.1:5000` in your browser.
 
 #### For Windows (Command Prompt)
 1. **Navigate to project folder:** `cd auth_assessment`
-2. **Activate Virtual Environment:** `venv\Scripts\activate`
-3. **Install Dependencies:** `pip install Flask Flask-SQLAlchemy Flask-Login`
-4. **Run Application:** `python app.py`
-5. **Access:** Open `http://127.0.0.1:5000` in your browser.
+2.  **Create Virtual Environment:** python3 -m venv venv
+3. **Activate Virtual Environment:** `venv\Scripts\activate`
+4. **Install Dependencies:** `pip install Flask Flask-SQLAlchemy Flask-Login`
+5. **Run Application:** `python app.py`
+6. **Access:** Open `http://127.0.0.1:5000` in your browser.
 
 ### Technical Decisions & Assumptions
 * **SQLite:** Chosen for portability. It allows the project to run immediately on the interviewer's machine without external database configuration.
@@ -35,4 +37,5 @@ If given more time, I would implement:
 * **CSRF Protection:** Implementing Flask-WTF to protect all forms against Cross-Site Request Forgery attacks.
 
 * **Environment Variables:** Moving the SECRET_KEY and database URI to a .env file to ensure no sensitive credentials remain in the source code.
+
 
