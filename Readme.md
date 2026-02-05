@@ -15,7 +15,6 @@
 5. **Access:** Open `http://127.0.0.1:5000` in your browser.
 
 #### For Windows (Command Prompt)
-#### For WSL/Linux/macOS
 1. **Navigate to project folder:** `cd auth_assessment`
 2. **Activate Virtual Environment:** `venv\Scripts\activate`
 3. **Install Dependencies:** `pip install Flask Flask-SQLAlchemy Flask-Login`
@@ -36,3 +35,4 @@ If given more time, I would implement:
 * **CSRF Protection:** Implementing Flask-WTF to protect all forms against Cross-Site Request Forgery attacks.
 
 * **Environment Variables:** Moving the SECRET_KEY and database URI to a .env file to ensure no sensitive credentials remain in the source code.
+
