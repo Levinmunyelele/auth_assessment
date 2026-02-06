@@ -1,4 +1,12 @@
 # Full-Stack Authentication Assessment
+A simple full-stack authentication system supporting user registration, login, logout, and protected routes.
+
+## Features
+- User registration with secure password hashing
+- User login and logout
+- Session-based authentication
+- Protected routes accessible only to authenticated users
+- Server-side rendered UI
 
 ### Tech Stack
 * **Backend:** Python (Flask)
@@ -36,6 +44,7 @@ If given more time, I would implement:
 * **Rate Limiting:** To protect the login endpoint against brute-force attacks.
 * **CSRF Protection:** Implementing Flask-WTF to protect all forms against Cross-Site Request Forgery attacks.
 * **Environment Variables:** Moving the SECRET_KEY and database URI to a .env file to ensure no sensitive credentials remain in the source code.
+
 
 
 
